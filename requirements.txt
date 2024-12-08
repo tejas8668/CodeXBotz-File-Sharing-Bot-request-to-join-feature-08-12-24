@@ -1,10 +1,17 @@
 # --- For-Bot-Working --------- #
-pyrogram
-TgCrypto
+pyrogram>=1.2.9
+TgCrypto>=1.2.0
 pyromod==1.5
 python-dotenv
+
 # --- For-Database ------------ #
 pymongo
 dnspython
+
 # --- For-Web-Response ------- #
 aiohttp
+
+# --- Additional Dependencies ------ #
+certifi
+pytz
+requests
